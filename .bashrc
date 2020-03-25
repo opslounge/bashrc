@@ -30,10 +30,7 @@ NC='\e[0m'              # No Color
 
 echo "WHAT IMPACT ARE YOU GOING TO MAKE TODAY???????????"
 
-#ihd stuff
-alias ihd="ssh u88170166@home667860241.1and1-data.host"
 
-#this is the jump host
 
 #sgp shortcuts
 alias a1="ssh root@andyvdb1"
@@ -47,27 +44,10 @@ alias k3="ssh aparsons@kube03"
 alias adev="ssh root@sgp-ansdev01"
 
 #shortcuts to commands
-alias pt="cd ~/puretec"
 alias ops="cd ~/ops"
+alias k="kubectl"
+
 #output screen for doing console work
-alias scr="screen /dev/tty.usbserial"
-alias con="ssh aparsons:serial@10.226.224.100"
-
-
-#network equipment
-alias nexa="ssh admin@10.226.224.5"
-alias nexb="ssh admin@10.226.224.6"
-
-#openshift
-alias os1="ssh root@10.226.228.224"
-alias os2="ssh root@10.226.228.225"
-alias o1="ssh root@10.226.228.238"
-alias o2="ssh root@10.226.228.237"
-alias o3="ssh root@10.226.228.236"
-
-#aws connections
-alias aws="ssh -i "pureuser.pem" ubuntu@10.226.129.38"
-
 
 
 
@@ -76,8 +56,3 @@ alias fix="vim ~/.bashrc"
 alias huh="cat ~/.bashrc"
 alias src="source ~/.bashrc"
 
-#Array Logins
-alias fb1="ssh pureuser@10.226.224.180"
-
-#VMware show pod
-alias sj="ssh root@10.226.224.250"
